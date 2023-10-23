@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\HelperStockBeta",
+    "\\HelperStockBeta\\HelperStockBeta.Domain",
+    "\\HelperStockBeta\\HelperStockBeta.Domain\\Entities",
+    "\\HelperStockBeta\\HelperStockBeta.Domain\\Interface",
+    "\\HelperStockBeta\\HelperStockBeta.Domain\\Validation"
   ],
+  "SelectedNode": "\\HelperStockBeta\\HelperStockBeta.Domain\\Interface\\ICategoryRepository.cs",
   "PreviewInSolutionExplorer": false
 }

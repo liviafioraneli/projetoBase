@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HelperStockBeta.Domain.Entities
 {
-    public sealed class Category
+    public sealed class Category : Entity
     {
         public int Id { get; private set; }
         public string Name { get; private set; }
@@ -28,11 +28,23 @@ namespace HelperStockBeta.Domain.Entities
             ValidateDomain(name);
             Name = name;
         }
+
+        public void Update (string name)
+        {
+            ValidateDomain(name);
+        }
+
         public void ValidateDomain(string name)
         {
             DomainExceptionValidation.When(string.IsNullOrEmpty(name), "Invalid name. Name is required!");
 
             DomainExceptionValidation.When(name.Length > 3, "Name is minimum 3 characters");
+        }
+
+        public void Update (int id, string name, string description, decimal price, int stock, string image)
+        { 
+            ValidateDomain(name, description, price, stock, image)
+            CategoryId= categoryId;
         }
     }
 }
