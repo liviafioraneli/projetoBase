@@ -53,6 +53,7 @@ namespace HelperStockBeta.Domain.Entities
             ValidationDomain(name, description, price, stock, image);
             CategoryId = categoryId;
         }
+
         //Relacionamento com categoria
         public int CategoryId { get; set; }
 
