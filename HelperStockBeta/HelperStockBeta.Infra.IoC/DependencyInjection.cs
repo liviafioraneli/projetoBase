@@ -1,4 +1,8 @@
-﻿using HelperStockBeta.Domain.Interface;
+﻿using HelperStockBeta.Application.Interface;
+using HelperStockBeta.Application.Mappings;
+using HelperStockBeta.Application.services;
+using HelperStockBeta.Application.Services;
+using HelperStockBeta.Domain.Interface;
 using HelperStockBeta.Infra.Data.Context;
 using HelperStockBeta.Infra.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -19,6 +23,11 @@ namespace HelperStockBeta.Infra.IoC
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
+
+            //Mapping Injection DTOs
+            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IProductService, ProductService>();
+            services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
             return services;
         }

@@ -2730,6 +2730,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "HelperStockBeta.Application >= 1.0.0",
       "HelperStockBeta.Domain >= 1.0.0",
       "HelperStockBeta.Infra.Data >= 1.0.0"
@@ -2789,6 +2790,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[12.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

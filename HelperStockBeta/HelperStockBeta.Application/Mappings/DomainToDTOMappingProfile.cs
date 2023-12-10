@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using HelperStockBeta.Application.DTOs;
+using HelperStockBeta.Application.Interface;
 using HelperStockBeta.Domain.Entities;
+using HelperStockBeta.Application.services;
 
 namespace HelperStockBeta.Application.Mappings
 {
@@ -10,6 +12,9 @@ namespace HelperStockBeta.Application.Mappings
         {
             CreateMap<Category, CategoryDTO>().ReverseMap();
             CreateMap<Product, ProductDTO>().ReverseMap();
+           
+
+
         }
 
     }

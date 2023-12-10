@@ -4,7 +4,7 @@ using HelperStockBeta.Application.Interface;
 using HelperStockBeta.Domain.Entities;
 using HelperStockBeta.Domain.Interface;
 
-namespace HelperStockBeta.Application.Services
+namespace HelperStockBeta.Application.services
 {
     public class CategoryService : ICategoryService
     {

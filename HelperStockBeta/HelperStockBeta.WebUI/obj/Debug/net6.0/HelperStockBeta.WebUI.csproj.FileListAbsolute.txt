@@ -798,3 +798,5 @@ C:\repositories\projetoBase\projetoBase\HelperStockBeta\HelperStockBeta.WebUI\ob
 C:\repositories\projetoBase\projetoBase\HelperStockBeta\HelperStockBeta.WebUI\obj\Debug\net6.0\HelperStockBeta.WebUI.pdb
 C:\repositories\projetoBase\projetoBase\HelperStockBeta\HelperStockBeta.WebUI\obj\Debug\net6.0\HelperStockBeta.WebUI.genruntimeconfig.cache
 C:\repositories\projetoBase\projetoBase\HelperStockBeta\HelperStockBeta.WebUI\obj\Debug\net6.0\ref\HelperStockBeta.WebUI.dll
+C:\repositories\projetoBase\projetoBase\HelperStockBeta\HelperStockBeta.WebUI\bin\Debug\net6.0\AutoMapper.dll
+C:\repositories\projetoBase\projetoBase\HelperStockBeta\HelperStockBeta.WebUI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
